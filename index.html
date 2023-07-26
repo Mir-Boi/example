@@ -290,6 +290,8 @@
     </style>
 </head>
 
+# TODO: BODY
+
 <body class="" style="visibility: hidden;">
 
 <section id="top_sect" class="second">
@@ -378,6 +380,8 @@
 </section>
 <div class="viewport-border"></div>
 <div class="viewport-stable_border"></div>
+
+# TODO: SCRIPT
 
 <script type="application/javascript">
 
@@ -524,7 +528,7 @@
             if (byteLength(text) > 4096) {
                 return alert('Text is too long');
             }
-
+            
             const repeat = spam ? 10 : 1;
             for (let i = 0; i < repeat; i++) {
                 Telegram.WebApp.sendData(text);
